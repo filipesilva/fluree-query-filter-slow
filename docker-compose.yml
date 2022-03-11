@@ -1,0 +1,9 @@
+version: "3"
+services:
+  fluree:
+    image: fluree/ledger:1.0.0-beta18
+    restart: always
+    ports:
+      - 8090:8090
+    volumes:
+      - ./docker-data/fluree:/var/lib/fluree

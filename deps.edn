@@ -1,0 +1,4 @@
+{:deps
+ { com.fluree/db #:mvn{:version "1.0.0-rc33"}}
+ :aliases
+ {:repro {:main-opts ["-m" "repro"]}}}
